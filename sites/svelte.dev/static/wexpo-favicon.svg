@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg33197"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="wexpo-favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview33199"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.1135662"
+     inkscape:cx="369.98249"
+     inkscape:cy="497.94973"
+     inkscape:window-width="1323"
+     inkscape:window-height="847"
+     inkscape:window-x="49"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs33194" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#fa4f00;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="99.440445"
+       y="128.42679"
+       id="text38595"><tspan
+         sodipodi:role="line"
+         id="tspan38593"
+         style="font-weight:bold;stroke-width:0.264583;fill:#fa4f00;fill-opacity:1"
+         x="99.440445"
+         y="128.42679">W</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#d48500;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="130.20461"
+       y="103.6217"
+       id="text46399"
+       transform="rotate(11.72393)"
+       inkscape:transform-center-x="-0.92876739"
+       inkscape:transform-center-y="-1.2049826"><tspan
+         sodipodi:role="line"
+         id="tspan46397"
+         style="font-weight:bold;fill:#d48500;fill-opacity:1;stroke-width:0.264583"
+         x="130.20461"
+         y="103.6217">E</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="132.3432"
+       y="121.88879"
+       id="text47995"><tspan
+         sodipodi:role="line"
+         id="tspan47993"
+         style="stroke-width:0.264583"
+         x="132.3432"
+         y="121.88879" /></text>
+  </g>
+</svg>

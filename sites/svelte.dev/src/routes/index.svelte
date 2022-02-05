@@ -4,124 +4,90 @@
 
 <script>
 	import { Blurb } from '@sveltejs/site-kit';
-	import Supporters from './_components/Supporters/index.svelte';
 	import Hero from './_components/Hero.svelte';
-	import Image from './_components/Image.svelte';
-	import Demo from './_components/Demo.svelte';
-	import WhosUsingSvelte from './_components/WhosUsingSvelte/index.svelte';
-	import Balls from '$img/svelte-balls.png?w=640;1280;2560;3840&format=avif;webp;png&meta';
+	// import Image from './_components/Image.svelte';
 </script>
 
 <svelte:head>
-	<title>Svelte • Cybernetically enhanced web apps</title>
+	<title>Wexpo • Création de sites web</title>
 
-	<meta name="twitter:title" content="Svelte" />
-	<meta name="twitter:description" content="Cybernetically enhanced web apps" />
-	<meta name="Description" content="Cybernetically enhanced web apps" />
+	<meta name="twitter:title" content="Wexpo" />
+	<meta name="twitter:description" content="Création de sites web" />
+	<meta name="Description" content="Création de sites web" />
 </svelte:head>
 
 <h1 class="visually-hidden">Svelte</h1>
 
+<section>
+	<h3>
+		<strong>Exposez</strong> vos <strong>Services</strong>, <strong>Créations</strong> ou <strong>Vous</strong> sur le <strong>Web</strong> 
+	</h3>
+
+	<h3>
+		Wexpo <strong>crée</strong> sur mesure, <strong>héberge</strong> et <strong>maintient</strong> votre <strong>site web</strong>
+	</h3>
+
+</section>
 <Hero />
 
-<div class="blurb-shifter">
 	<Blurb>
 		<div slot="one">
-			<h2>Write less code</h2>
+			<h2>Personalisé</h2>
 			<p>
-				Build boilerplate-free components using languages you already know — HTML, CSS and
-				JavaScript
+				Personalisation selon ce que vous voulez mettre en avant
 			</p>
 
-			<a sveltekit:prefetch href="/blog/write-less-code" class="cta">learn more</a>
+			<!-- <a sveltekit:prefetch href="/blog/write-less-code" class="cta">learn more</a> -->
 		</div>
 
 		<div slot="two">
-			<h2>No virtual DOM</h2>
+			<h2>Tout inclus</h2>
 			<p>
-				Svelte compiles your code to tiny, framework-less vanilla JS — your app starts fast and
-				stays fast
+				Hébergement, nom de domaine, courriel
 			</p>
-
-			<a sveltekit:prefetch href="/blog/virtual-dom-is-pure-overhead" class="cta">learn more</a>
 		</div>
 
 		<div slot="three">
-			<h2>Truly reactive</h2>
+			<h2>Abordable</h2>
 			<p>
-				No more complex state management libraries — Svelte brings reactivity to JavaScript itself
+				Tous les fonctionnalités annexes sont a la carte pour un tarif mesuré 
 			</p>
-
-			<a sveltekit:prefetch href="/blog/svelte-3-rethinking-reactivity" class="cta">learn more</a>
-		</div>
-
-		<div class="description" slot="what">
-			<p>
-				Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks
-				like React and Vue do the bulk of their work in the <em>browser</em>, Svelte shifts that
-				work into a <em>compile step</em> that happens when you build your app.
-			</p>
-
-			<p>
-				Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically
-				updates the DOM when the state of your app changes.
-			</p>
-
-			<p>
-				We're proud that Svelte was recently voted the <a
-					href="https://insights.stackoverflow.com/survey/2021#section-most-loved-dreaded-and-wanted-web-frameworks"
-					>most loved web framework</a
-				>
-				with the
-				<a href="https://2020.stateofjs.com/en-US/technologies/front-end-frameworks/"
-					>most satisfied developers</a
-				>
-				in a pair of industry surveys. We think you'll love it too.
-				<a href="/blog/svelte-3-rethinking-reactivity" class="cta"
-					>Read the introductory blog post</a
-				> to learn more.
-			</p>
-		</div>
-
-		<div slot="how">
-			<pre><code>
-npx degit <a href="https://github.com/sveltejs/template" style="user-select: initial;"
-						>sveltejs/template</a
-					> my-svelte-project
-cd my-svelte-project
-npm install
-npm run dev
-			</code></pre>
-
-			<p style="flex: 1">
-				See the <a href="/blog/the-easiest-way-to-get-started">quickstart guide</a> for TypeScript support
-				and more details.
-			</p>
-
-			<a sveltekit:prefetch href="/tutorial" class="cta">Learn Svelte</a>
 		</div>
 	</Blurb>
-</div>
 
-<Demo />
 
 <section>
-	<h3>Who's using Svelte?</h3>
-
-	<WhosUsingSvelte />
+	<h2 id="Offre">Offre</h2>
+	<h2 id="Comparaison">Comparaison</h2>
+	<h2 id="Tarifs">Tarifs</h2>
+		
+	<h3>Base : 50 </h3>
+	<h3>Options : </h3>
+	<div>
+		<input type="checkbox" id="scales" name="scales"
+			   checked>
+		<label for="scales">Carte interactive</label>
+	  </div>
+	  <div>
+		<input type="checkbox" id="gallerie" name="scales"
+			   checked>
+		<label for="scales">Gallerie</label>
+	  </div>
+	  <div>
+		<input type="checkbox" id="interactivité" name="horns">
+		<label for="horns">Autre interactivité</label>
+	  </div>
+	  <p>Total : </p>
+	
+	
 </section>
 
-<Supporters />
-
-<Image data={Balls} alt="The Svelte logo in a ball pit" />
+<!-- <Image data={Balls} alt="The Svelte logo in a ball pit" /> -->
 
 <footer>
-	<a href="/tutorial">Tutorial</a>
-	<a href="/docs">Docs</a>
-	<a href="/examples">Examples</a>
-	<a href="/blog">Blog</a>
-	<a href="/faq">FAQ</a>
-	<a href="https://opencollective.com/svelte">Open Collective</a>
+	<a href="#Offre">Offre</a>
+	<a href="#Comparaison">Comparaison</a>
+	<a href="#Tarifs">Tarifs</a>
 </footer>
 
 <style>

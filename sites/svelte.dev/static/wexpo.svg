@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="wexpo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.95753968"
+     inkscape:cx="206.77994"
+     inkscape:cy="410.94903"
+     inkscape:window-width="1323"
+     inkscape:window-height="847"
+     inkscape:window-x="50"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="58.924801"
+       y="101.69279"
+       id="text1287"><tspan
+         sodipodi:role="line"
+         id="tspan1285"
+         style="font-weight:bold;fill:#d45500;stroke-width:0.264583"
+         x="58.924801"
+         y="101.69279"><tspan
+           style="fill:#ff7900;fill-opacity:1"
+           id="tspan40006">W</tspan><tspan
+           style="fill:#ffa200;fill-opacity:1"
+           id="tspan30219">e</tspan><tspan
+           id="tspan77674"
+           style="fill:#ffdb00;fill-opacity:1">xpo</tspan></tspan></text>
+  </g>
+</svg>

@@ -38,28 +38,16 @@
 
 {#if $page.url.pathname !== '/repl/embed'}
 	<SkipLink href="#main" />
-	<Nav {page} logo="/svelte-logo-horizontal.svg">
+	<Nav {page} logo="/wexpo.svg">
 		<svelte:fragment slot="nav-center">
-			<NavItem href="/tutorial">Tutorial</NavItem>
-			<NavItem href="/docs">Docs</NavItem>
-			<NavItem href="/examples">Examples</NavItem>
-			<NavItem href="/repl">REPL</NavItem>
+			<NavItem href="#Offre">Offre</NavItem>
+			<NavItem href="#Comparaison">Comparaison</NavItem>
+			<NavItem href="#Tarifs">Tarifs</NavItem>
 			<NavItem href="/blog">Blog</NavItem>
-			<NavItem href="/faq">FAQ</NavItem>
 		</svelte:fragment>
 
 		<svelte:fragment slot="nav-right">
-			<NavItem external="https://kit.svelte.dev">SvelteKit</NavItem>
-
-			<NavItem external="/chat" title="Discord Chat">
-				<span class="small">Discord</span>
-				<span class="large"><Icon name="message-square" /></span>
-			</NavItem>
-
-			<NavItem external="https://github.com/sveltejs/svelte" title="GitHub Repo">
-				<span class="small">GitHub</span>
-				<span class="large"><Icon name="github" /></span>
-			</NavItem>
+			<NavItem external="https://twitter.com/wexpo">Twitter</NavItem>
 		</svelte:fragment>
 	</Nav>
 {/if}

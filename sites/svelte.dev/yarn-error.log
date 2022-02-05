@@ -1,0 +1,73 @@
+Arguments: 
+  /usr/local/bin/node /Users/david/.node/corepack/yarn/1.22.15/bin/yarn.js install
+
+PATH: 
+  /opt/local/bin:/opt/local/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  17.4.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@sveltejs%2frepl: Not found
+      at Request.params.callback [as _callback] (/Users/david/.node/corepack/yarn/1.22.15/lib/cli.js:66140:18)
+      at Request.self.callback (/Users/david/.node/corepack/yarn/1.22.15/lib/cli.js:140885:22)
+      at Request.emit (node:events:520:28)
+      at Request.<anonymous> (/Users/david/.node/corepack/yarn/1.22.15/lib/cli.js:141857:10)
+      at Request.emit (node:events:520:28)
+      at IncomingMessage.<anonymous> (/Users/david/.node/corepack/yarn/1.22.15/lib/cli.js:141779:12)
+      at Object.onceWrapper (node:events:639:28)
+      at IncomingMessage.emit (node:events:532:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+  	"name": "svelte.dev",
+  	"version": "1.0.0",
+  	"description": "Docs and examples for Svelte",
+  	"type": "module",
+  	"scripts": {
+  		"dev": "node scripts/update.js && svelte-kit dev",
+  		"build": "node scripts/update.js && svelte-kit build",
+  		"update": "node scripts/update.js --force=true",
+  		"preview": "svelte-kit preview",
+  		"start": "node build",
+  		"format": "npm run check:format -- --write",
+  		"check:format": "prettier --check . --ignore-path .gitignore --plugin-search-dir=."
+  	},
+  	"dependencies": {
+  		"@supabase/supabase-js": "^1.29.4",
+  		"@sveltejs/repl": "workspace:*",
+  		"cookie": "^0.4.2",
+  		"devalue": "^2.0.1",
+  		"do-not-zip": "^1.0.0",
+  		"flru": "^1.0.2",
+  		"marked": "^4.0.12"
+  	},
+  	"devDependencies": {
+  		"@sveltejs/adapter-auto": "next",
+  		"@sveltejs/kit": "next",
+  		"@sveltejs/site-kit": "workspace:*",
+  		"degit": "^2.8.4",
+  		"dotenv": "^10.0.0",
+  		"jimp": "^0.8.5",
+  		"node-fetch": "^2.6.7",
+  		"prettier": "^2.5.1",
+  		"prettier-plugin-svelte": "^2.6.0",
+  		"shelljs": "^0.8.5",
+  		"svelte": "^3.46.3",
+  		"vite-imagetools": "^4.0.3"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
